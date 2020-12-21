@@ -4,7 +4,7 @@ let tableauDeux = ["valeur1", "valeur2", "valeur3", "valeur4", "valeur5", "bidul
 /* Votre code ici bas */
 
 let tableauUnFoisLuiMeme = document.createElement("div");
-tableauUnFoisLuiMeme.innerHTML = (tableauUn.map((event) => event * event)).toString();
+tableauUnFoisLuiMeme.innerHTML = (tableauUn.map((event) => event ** event)).toString();
 document.body.append(tableauUnFoisLuiMeme);
 
 let tableauUnFois10 = document.createElement("div");
