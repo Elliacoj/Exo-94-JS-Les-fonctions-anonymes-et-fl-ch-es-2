@@ -32,7 +32,7 @@ tableauDeuxLength.innerHTML = (tableauDeux.map(event => event.length)).toString(
 document.body.append(tableauDeuxLength);
 
 let tableauDeuxLengthAndBase = document.createElement("div");
-tableauDeuxLengthAndBase.innerHTML = (tableauDeux.concat(tableauDeux, (tableauDeux.map(event => event.length)))).toString();
+tableauDeuxLengthAndBase.innerHTML = (tableauDeux.map(event => event + event.length)).toString();
 document.body.append(tableauDeuxLengthAndBase);
 
 let tableauDeuxLuiMeme = document.createElement("div");
